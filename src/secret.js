@@ -1,0 +1,11 @@
+exports.defaultImagePath = "public/images/users/default.png";
+exports.ImageDirectory = __dirname + "/../public/images/products";
+exports.PORT = process.env.PORT || 8001;
+exports.mongoDBURI = process.env.MONGODB_URI;
+exports.jwtSecrt = process.env.JWT_SECRET;
+exports.smtpUsername = process.env.SMTP_UESRNAME;
+exports.smtpPassword = process.env.SMTP_PASSWORD;
+exports.clientURL = process.env.CLIENT_URL;
+exports.stripePublicKey = process.env.STRIPE_PUBLIC_KEY;
+exports.stripePrivateKey = process.env.STRIPE_PRIVATE_KEY;
+exports.shippingCharge = process.env.SHIPPING_CHARGE;
